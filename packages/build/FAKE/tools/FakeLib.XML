@@ -8845,6 +8845,11 @@ get component refs from a directory component hierarchy
  Compiles all uncompiled objects in the Dynamics NAV client.
 </summary>
 </member>
+<member name="M:Fake.DynamicsNav.CompileWithFilter(System.String,Fake.DynamicsNav.DynamicsNavParams)">
+<summary>
+ Compiles all filtered uncompiled objects in the Dynamics NAV client.
+</summary>
+</member>
 <member name="M:Fake.DynamicsNav.ImportFiles(Fake.DynamicsNav.DynamicsNavParams,System.String,System.Collections.Generic.IEnumerable{System.String})">
 <summary>
  Creates an import file from the given .txt files and imports it into the Dynamics NAV client.
