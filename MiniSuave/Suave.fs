@@ -21,16 +21,19 @@ module Combinators =
 module Filters =
     open Http
 
-    let iff condition context =
+    let private iff condition context =
         if condition context 
         then context |> Some |> async.Return
         else None |> async.Return
+
+    let private strOrEmpty str = 
+        if System.String.IsNullOrEmpty(str) then System.String.Empty else str.Trim()
 
     let GET = iff (fun context -> context.Request.Type = GET)
 
     let POST = iff (fun context -> context.Request.Type = POST)
 
-    let Path path = iff (fun context -> context.Request.Route = path)
+    let Path path = iff (fun context -> strOrEmpty context.Request.Route = strOrEmpty path)
 
     let rec Choose webparts context = async {
         match webparts with
