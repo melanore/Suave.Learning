@@ -1,15 +1,14 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MiniSuave", "MiniSuave", "{7A0C7E75-E627-4632-A645-9877CB2FF105}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "MiniSuave", "MiniSuave\MiniSuave\MiniSuave.fsproj", "{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "MiniSuave", "MiniSuave\MiniSuave\MiniSuave.fsproj", "{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GitHubMockApiServer", "GitHubMockApiServer", "{FA0BC485-E127-4F0D-96C8-30DF56EA58D4}"
 EndProject
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "GitHubMockApiServer", "GitHubMockApiServer\GitHubMockApiServer\GitHubMockApiServer.fsproj", "{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}"
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "GitHubMockApiServer", "GitHubMockApiServer\GitHubMockApiServer\GitHubMockApiServer.fsproj", "{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,37 +19,40 @@ Global
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x64.ActiveCfg = Debug|x64
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x64.Build.0 = Debug|x64
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x86.ActiveCfg = Debug|x86
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x86.Build.0 = Debug|x86
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x64.Build.0 = Debug|Any CPU
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Debug|x86.Build.0 = Debug|Any CPU
 		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x64.ActiveCfg = Release|x64
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x64.Build.0 = Release|x64
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x86.ActiveCfg = Release|x86
-		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x86.Build.0 = Release|x86
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x64.ActiveCfg = Release|Any CPU
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x64.Build.0 = Release|Any CPU
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x86.ActiveCfg = Release|Any CPU
+		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99}.Release|x86.Build.0 = Release|Any CPU
 		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x64.ActiveCfg = Debug|x64
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x64.Build.0 = Debug|x64
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x86.ActiveCfg = Debug|x86
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x86.Build.0 = Debug|x86
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x64.Build.0 = Debug|Any CPU
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Debug|x86.Build.0 = Debug|Any CPU
 		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x64.ActiveCfg = Release|x64
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x64.Build.0 = Release|x64
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x86.ActiveCfg = Release|x86
-		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x86.Build.0 = Release|x86
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x64.ActiveCfg = Release|Any CPU
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x64.Build.0 = Release|Any CPU
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{3474A8D9-4D7A-45F3-A5CB-8137584B1B99} = {7A0C7E75-E627-4632-A645-9877CB2FF105}
 		{F6EE3055-C171-4B8A-A8E6-D81294EF01E2} = {FA0BC485-E127-4F0D-96C8-30DF56EA58D4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D15A2C4A-A309-4710-9082-A320100CF2BF}
 	EndGlobalSection
 EndGlobal
