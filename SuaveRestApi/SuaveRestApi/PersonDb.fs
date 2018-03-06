@@ -8,10 +8,15 @@ type Person = {
     Email : string
 }
 
-module Db =
+module PersonDb =
     let private peopleStorage = Dictionary<int, Person>()
-
     let getPeople () = peopleStorage.Values :> seq<Person>
+    let personExists = peopleStorage.ContainsKey
+
+    let getPersonById personId = 
+        if peopleStorage.ContainsKey(personId) 
+        then Some peopleStorage.[personId] 
+        else None 
 
     let createPerson person = 
         let id = peopleStorage.Values.Count + 1

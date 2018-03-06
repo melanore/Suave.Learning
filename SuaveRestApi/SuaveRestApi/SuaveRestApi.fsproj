@@ -4,7 +4,7 @@
     <TargetFramework>net461</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Db.fs" />
+    <Compile Include="PersonDb.fs" />
     <Compile Include="ResFul.fs" />
     <Compile Include="App.fs" />
     <None Include="App.config" />
