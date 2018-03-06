@@ -32,6 +32,7 @@ let main _ =
             UpdateById  = personDb.Update
             Exists      = personDb.Exists
         }
+
         rest "books" {
             GetAll      = bookDb.GetAll
             Create      = bookDb.Create

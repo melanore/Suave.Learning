@@ -10,6 +10,7 @@
     <Compile Include="Suave.fs" />
     <Compile Include="MiniSuave.fs" />
     <None Include="App.config" />
+    <None Include="paket.references" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
